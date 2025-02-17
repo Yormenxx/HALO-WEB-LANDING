@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+header{
+    background: url(./assets/halo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.control{
+    background: url(./assets/control.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bgCover{
+    position: relative;
+    background: url(./assets/bgCover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 20;
+}
+
+
+.bgXbox{
+    position: relative;
+    background: url(./assets/bg-xbox.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+}
+
+.bgFinal{
+    position: relative;
+    background: url(./assets/final.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
