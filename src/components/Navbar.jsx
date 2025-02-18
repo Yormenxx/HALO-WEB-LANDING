@@ -7,6 +7,8 @@ import microsoft from "../assets/microsoft.png"
 import halo from "../assets/halo.jpeg"
 import { useState } from "react";
 import Add from "./Add";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants";
 function Navbar() {
 
     const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false)
@@ -20,7 +22,10 @@ function Navbar() {
 
             <header className="relative  w-full h-screen ">
 
-                <nav className="relative z-20  py-5 px-1.5 text-white bg-white/5 bg-opacity-10 backdrop-filter backdrop-blur-lg">
+                <motion.nav variants={fadeIn("down", 0.1)}
+                initial="hidden"
+                whileInView={"show"}
+                vieport={{ once: false, amount: 0.5 }} className="relative z-20  py-5 px-1.5 text-white bg-white/5 bg-opacity-10 backdrop-filter backdrop-blur-lg">
 
                     <div className="flex justify-around items-center">
 
@@ -86,7 +91,7 @@ function Navbar() {
 
                         )
                     }
-                </nav>
+                </motion.nav>
                 <Add />
 
             </header>
