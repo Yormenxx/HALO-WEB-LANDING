@@ -14,11 +14,11 @@ function Add() {
 
                 <h2 className="text-[#adff2f] font-bold capitalize text-lg md:text-4xl">Halo infinite</h2>
                 <img src={gamepass} className=" w-[50px] md:w-[150px]" alt="game pass" />
-                <a href="" className="flex items-center justify-around text-black bg-[#adff2f] p-1 md:py-2  md:px-12 capitalize rounded-lg font-bold hover:opacity-80 duration-150 ease-in-out ">Get it now <FaArrowRight className="text-sm md:text-xl ml-3"/> </a>
+                <a href="" className="flex items-center justify-around text-black bg-[#adff2f] p-1 md:py-2  md:px-12 capitalize rounded-lg font-bold hover:opacity-80 duration-150 ease-in-out ">Obtener ahora<FaArrowRight className="text-sm md:text-xl ml-3"/> </a>
 
-                <h3 className="text-white capitalize text-sm md:text-xl font-bold">Available now with Xbox Game Pass</h3>
+                <h3 className="text-white capitalize text-sm md:text-xl font-bold">Disponible ahora con Xbox game pass</h3>
                 <img src={seriexs} className=" w-[50px] md:w-[150px]" alt="serie xs" />
-                <a href="" className="text-xl font-bold text-[#adff2f] border-b-2 border-[#adff2f]">Get battle pass</a>
+                <a href="" className="text-xl font-bold text-[#adff2f] border-b-2 border-[#adff2f]">Obtener pase de batalla</a>
 
         </motion.div>
 

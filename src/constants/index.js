@@ -11,11 +11,11 @@ export const navItems = [
 
     },
     {
-        name:"Games",
+        name:"Juegos",
         link:"#"
     },
     {
-        name:"Devices",
+        name:"Dispositivos",
         link:"#"
     },
     {
@@ -27,11 +27,11 @@ export const navItems = [
         link:"#"
     },
     {
-        name:"Support",
+        name:"Soporte",
         link:"#"
     },
     {
-        name:"My xbox",
+        name:"Mi xbox",
         link:"#"
     }
 ]

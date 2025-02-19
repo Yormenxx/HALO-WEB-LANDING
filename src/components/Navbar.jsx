@@ -3,7 +3,7 @@ import { CiSearch } from "react-icons/ci";
 import { FaShoppingCart } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import { IoMdMenu } from "react-icons/io";
-import microsoft from "../assets/microsoft.png"
+import micro from "../assets/micro.png"
 import halo from "../assets/halo.jpeg"
 import { useState } from "react";
 import Add from "./Add";
@@ -29,7 +29,7 @@ function Navbar() {
 
                     <div className="flex justify-around items-center">
 
-                        <img src={microsoft} className="w-[150px]" alt="" />
+                        <img src={micro} className="w-[150px]" alt="" />
 
                         <div className="lg:flex hidden">
                             <ul className="flex justify-between items-center space-x-5 ">
@@ -48,7 +48,7 @@ function Navbar() {
                         <div className="lg:flex hidden justify-around items-center space-x-3">
                             <CiSearch className="text-2xl" />
                             <FaShoppingCart className="text-2xl" />
-                            <button>Sign in</button>
+                            <button>Registrarse</button>
                         </div>
 
                         <div className="lg:hidden flex justify-end" >
@@ -80,7 +80,7 @@ function Navbar() {
                                 <div className="flex flex-col justify-around items-center space-y-3">
                                     <CiSearch />
                                     <FaShoppingCart />
-                                    <button>Sign in</button>
+                                    <button>Registrarse</button>
                                 </div>
 
                             </div>
